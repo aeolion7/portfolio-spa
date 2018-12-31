@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aeolion7/portfolio-spa/issues"
   },
-  "homepage": "https://github.com/aeolion7/portfolio-spa#readme"
+  "homepage": "https://github.com/aeolion7/portfolio-spa#readme",
+  "dependencies": {
+    "semantic-ui": "^2.4.2"
+  }
 }
