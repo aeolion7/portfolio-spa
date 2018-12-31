@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeolion7/portfolio-spa.git"
+  },
+  "author": "Joseph Lionarons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aeolion7/portfolio-spa/issues"
+  },
+  "homepage": "https://github.com/aeolion7/portfolio-spa#readme"
+}
