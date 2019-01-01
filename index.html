@@ -21,8 +21,10 @@
       src="https://code.jquery.com/jquery-3.1.1.min.js"
       integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
       crossorigin="anonymous"
+      defer
     ></script>
-    <script src="semantic/dist/semantic.min.js"></script>
+    <script src="semantic/dist/semantic.min.js" defer></script>
+    <script src="stickyheader.js" defer></script>
     <!-- <script src="bundle.js" defer></script> -->
   </head>
   <body>
@@ -32,18 +34,19 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
-    <nav>
+    <div class="page">Joseph Lionarons</div>
+    <nav id="nav-header">
       <div id="nav-container">
-        <div><a href="#">Joseph Lionarons</a></div>
-        <div id="nav-links">
-          <a href="#">Contact</a> <a href="#">Stuff</a>
-          <a href="#">More Stuff</a> <a href="#">Here's A Thing</a>
-        </div>
+        <a href="#">Contact</a> <a href="#">Stuff</a>
+        <a href="#test">More Stuff</a> <a href="#">Here's A Thing</a>
       </div>
     </nav>
+    <!-- consider making another page for introduction,
+         and fix the navbar with the rest of the page
+         once the initial page has been scrolled past-->
     <div class="page">I am content</div>
     <div class="page">I am also content</div>
-    <div class="page"></div>
-    <div class="page"></div>
+    <div class="page">3</div>
+    <div class="page">Thing4</div>
   </body>
 </html>
