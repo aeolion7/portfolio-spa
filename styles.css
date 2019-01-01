@@ -10,7 +10,8 @@ nav {
 }
 
 .page {
-  height: 92vh;
+  height: 100vh;
+  padding: 8vh 0;
   width: 100vw;
 }
 
