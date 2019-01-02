@@ -1,6 +1,11 @@
 body {
-  background-color: black;
   margin: 0;
+}
+
+footer {
+  background-color: #313131;
+  height: 10vh;
+  width: 100vw;
 }
 
 hr {
