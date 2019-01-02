@@ -10,6 +10,9 @@ nav {
 }
 
 .container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
   grid-column-start: 2;
   grid-row-start: 2;
 }
@@ -27,7 +30,8 @@ nav {
   display: grid;
   grid-template-columns: 10vw 80vw 10vw;
   grid-template-rows: 10vh 80vh 10vh;
-  height: 100vh;
+  padding: 4vh 0;
+  height: 108vh;
   width: 100vw;
 }
 
@@ -53,6 +57,7 @@ nav {
 
 #header {
   height: 92vh;
+  padding: 0;
 }
 
 #nav-container {
