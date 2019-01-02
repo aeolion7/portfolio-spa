@@ -3,10 +3,9 @@ window.onscroll = function () {
 };
 
 const navbar = document.getElementById('nav-header');
-const offsetAmount = navbar.offsetTop;
 
 function fixHeader() {
-  if (window.pageYOffset > offsetAmount) {
+  if (window.pageYOffset > (window.innerHeight * 0.92)) {
     navbar.classList.add('fixed');
   } else {
     navbar.classList.remove('fixed');
