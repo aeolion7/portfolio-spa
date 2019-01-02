@@ -24,7 +24,7 @@ nav {
   width: 100vw;
 }
 
-#intro {
+#header {
   height: 92vh;
 }
 
@@ -59,5 +59,11 @@ body > div:nth-of-type(5) {
 @media only screen and (min-width: 768px) {
   nav {
     font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  nav {
+    font-size: 1.5em;
   }
 }
