@@ -9,19 +9,46 @@ nav {
   width: 100%;
 }
 
+.container {
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
 .fixed {
   position: fixed;
   top: 0;
 }
 
 .fixed + .page {
-  padding: 18vh 10vw;
+  grid-template-rows: 18vh 80vh 2vh;
 }
 
 .page {
+  display: grid;
+  grid-template-columns: 10vw 80vw 10vw;
+  grid-template-rows: 10vh 80vh 10vh;
   height: 100vh;
-  padding: 10vh 10vw;
   width: 100vw;
+}
+
+.page:nth-of-type(1) {
+  background-color: lightblue;
+}
+
+.page:nth-of-type(2) {
+  background-color: red;
+}
+
+.page:nth-of-type(3) {
+  background-color: blue;
+}
+
+.page:nth-of-type(4) {
+  background-color: orange;
+}
+
+.page:nth-of-type(5) {
+  background-color: green;
 }
 
 #header {
@@ -34,26 +61,6 @@ nav {
   flex-flow: row nowrap;
   justify-content: space-around;
   height: 100%;
-}
-
-body > div:nth-of-type(1) {
-  background-color: lightblue;
-}
-
-body > div:nth-of-type(2) {
-  background-color: red;
-}
-
-body > div:nth-of-type(3) {
-  background-color: blue;
-}
-
-body > div:nth-of-type(4) {
-  background-color: orange;
-}
-
-body > div:nth-of-type(5) {
-  background-color: green;
 }
 
 @media only screen and (min-width: 768px) {
