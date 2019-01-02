@@ -9,21 +9,26 @@ footer {
 }
 
 hr {
-  height: 0px;
   margin: 0;
-  width: 100%;
+  border: 0;
 }
 
 nav {
-  background-color: lightblue;
+  background-color: #313131;
+  font-family: 'Unica One', cursive;
   height: 8vh;
   width: 100%;
 }
 
+nav a {
+  color: white;
+}
+
+.column.flex {
+  flex-flow: column nowrap;
+}
+
 .container {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   grid-column-start: 2;
   grid-row-start: 2;
 }
@@ -31,6 +36,13 @@ nav {
 .fixed {
   position: fixed;
   top: 0;
+}
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .fixed + hr {
@@ -43,10 +55,6 @@ nav {
   grid-template-rows: 10vh 80vh 10vh;
   height: 100vh;
   width: 100vw;
-}
-
-.page:nth-of-type(1) {
-  background-color: lightblue;
 }
 
 .page:nth-of-type(2) {
@@ -66,8 +74,22 @@ nav {
 }
 
 #header {
+  background-color: #313131;
   height: 92vh;
   padding: 0;
+}
+
+#header-title {
+  color: white;
+  font-family: 'Unica One', cursive;
+  font-size: 6vw;
+  margin-top: 0;
+}
+
+#name {
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 13.5vw;
 }
 
 #nav-container {
@@ -82,10 +104,22 @@ nav {
   nav {
     font-size: 2em;
   }
+
+  #header-title {
+    font-size: 4vw;
+  }
+
+  #name {
+    font-size: 10vw;
+  }
 }
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
   nav {
     font-size: 1.5em;
+  }
+
+  #name {
+    font-size: 13vw;
   }
 }
