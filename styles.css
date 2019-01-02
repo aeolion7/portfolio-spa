@@ -3,6 +3,12 @@ body {
   margin: 0;
 }
 
+hr {
+  height: 0px;
+  margin: 0;
+  width: 100%;
+}
+
 nav {
   background-color: lightblue;
   height: 8vh;
@@ -22,16 +28,15 @@ nav {
   top: 0;
 }
 
-.fixed + .page {
-  grid-template-rows: 18vh 80vh 2vh;
+.fixed + hr {
+  padding-top: 8vh;
 }
 
 .page {
   display: grid;
   grid-template-columns: 10vw 80vw 10vw;
   grid-template-rows: 10vh 80vh 10vh;
-  padding: 4vh 0;
-  height: 108vh;
+  height: 100vh;
   width: 100vw;
 }
 
