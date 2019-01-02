@@ -74,6 +74,10 @@ nav a {
   background-color: green;
 }
 
+.shadowed {
+  text-shadow: 2px 2px 5px black;
+}
+
 #header {
   background-color: #313131;
   height: 92vh;
