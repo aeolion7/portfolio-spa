@@ -4,7 +4,7 @@ body {
 
 footer {
   background-color: #313131;
-  height: 10vh;
+  height: 8vh;
   width: 100vw;
 }
 
@@ -16,6 +16,7 @@ hr {
 nav {
   background-color: #313131;
   font-family: 'Unica One', cursive;
+  font-size: 5vw;
   height: 8vh;
   width: 100%;
 }
@@ -102,7 +103,7 @@ nav a {
 
 @media only screen and (min-width: 768px) {
   nav {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   #header-title {
@@ -116,7 +117,7 @@ nav a {
 
 @media only screen and (min-width: 500px) and (max-width: 768px) {
   nav {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   #name {
