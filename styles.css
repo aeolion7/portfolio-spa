@@ -36,7 +36,6 @@ nav a {
   border-bottom: 0.4vh solid crimson;
 }
 
-
 .column.flex {
   flex-flow: column nowrap;
 }
@@ -64,6 +63,7 @@ nav a {
 
 .nav-link {
   align-items: center;
+  border-radius: 5px;
   box-sizing: content-box;
   display: flex;
   justify-content: center;
@@ -86,7 +86,7 @@ nav a {
 }
 
 .shadowed {
-  text-shadow: 2px 2px 5px black;
+  text-shadow: 2px 2px 20px black;
 }
 
 #about {
@@ -111,14 +111,14 @@ nav a {
 }
 
 #header-title {
-  color: white;
+  color: whitesmoke;
   font-family: 'Unica One', cursive;
   font-size: 5vw;
   margin-top: 0;
 }
 
 #name {
-  color: white;
+  color: whitesmoke;
   font-family: 'Great Vibes', cursive;
   font-size: 13.5vw;
   margin: 0;
