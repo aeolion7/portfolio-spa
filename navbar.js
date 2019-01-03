@@ -38,7 +38,7 @@ function assignActiveNavLink() {
   } else {
     resetActive();
     navLinks[0].classList.add('active');
-    if (window.pageYOffset <= pageHeight / 8 && leftFirstPage) {
+    if (window.pageYOffset <= pageHeight / 4 && leftFirstPage) {
       $('#header-container').transition('bounce');
       leftFirstPage = false;
     }
