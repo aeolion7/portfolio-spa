@@ -58,6 +58,14 @@ nav a {
   width: 100vw;
 }
 
+.section-header {
+  align-items: center;
+  display: flex;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  justify-content: center;
+}
+
 .shadowed {
   text-shadow: 2px 2px 5px black;
 }
@@ -124,6 +132,10 @@ nav a {
 
   #name {
     font-size: 10vw;
+  }
+
+  #nav-container {
+    padding-left: 2.25%;
   }
 }
 
