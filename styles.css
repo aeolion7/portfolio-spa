@@ -33,7 +33,7 @@ nav a {
 
 .active {
   background-color: grey;
-  border-bottom: 0.5vh solid crimson;
+  border-bottom: 0.4vh solid crimson;
 }
 
 
@@ -149,10 +149,6 @@ nav a {
 
   #name {
     font-size: 10vw;
-  }
-
-  #nav-container {
-    padding-left: 2.25%;
   }
 }
 

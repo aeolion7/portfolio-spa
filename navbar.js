@@ -17,21 +17,18 @@ function fixHeader() {
 
 const pages = document.getElementsByClassName('page');
 const navLinks = document.getElementsByClassName('nav-link');
-const hasMajorityOfViewport = (page) => {
-  return
-};
 
 function assignActiveNavLink() {
-  if (window.pageYOffset >= pages[4].offsetTop) {
+  if (window.pageYOffset >= pages[4].offsetTop - pageHeight / 2) {
     resetActive();
     navLinks[4].classList.add('active');
-  } else if (window.pageYOffset >= pages[3].offsetTop) {
+  } else if (window.pageYOffset >= pages[3].offsetTop - pageHeight / 2) {
     resetActive();
     navLinks[3].classList.add('active');
-  } else if (window.pageYOffset >= pages[2].offsetTop) {
+  } else if (window.pageYOffset >= pages[2].offsetTop - pageHeight / 2) {
     resetActive();
     navLinks[2].classList.add('active');
-  } else if (window.pageYOffset >= pages[1].offsetTop) {
+  } else if (window.pageYOffset >= pages[1].offsetTop - pageHeight / 2) {
     resetActive();
     navLinks[1].classList.add('active');
   } else {
