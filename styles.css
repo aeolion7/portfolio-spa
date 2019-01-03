@@ -31,6 +31,12 @@ nav a {
   color: white;
 }
 
+.active {
+  background-color: grey;
+  border-bottom: 0.5vh solid crimson;
+}
+
+
 .column.flex {
   flex-flow: column nowrap;
 }
@@ -58,6 +64,7 @@ nav a {
 
 .nav-link {
   align-items: center;
+  box-sizing: content-box;
   display: flex;
   justify-content: center;
 }
