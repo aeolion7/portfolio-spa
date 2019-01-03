@@ -6,4 +6,4 @@ $('#name').transition({
   }
 });
 
-$('#header-title').transition('scale', '800ms');
+$('#header-title').transition('scale', '1s');
