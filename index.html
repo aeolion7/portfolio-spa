@@ -29,6 +29,7 @@
     ></script>
     <script src="semantic/dist/semantic.min.js" defer></script>
     <script src="stickyheader.js" defer></script>
+    <script src="animations.js" defer></script>
     <!-- <script src="bundle.js" defer></script> -->
   </head>
   <body>
@@ -39,18 +40,22 @@
       </p>
     <![endif]-->
     <div class="page" id="header">
-      <div class="container flex column">
-        <h1 class="ui header shadowed" id="name">Joseph Lionarons</h1>
-        <h4 class="shadowed" id="header-title">Full Stack Software Engineer</h4>
+      <div class="container flex column" id="header-container">
+        <h1 class="ui header shadowed hidden transition" id="name">
+          Joseph Lionarons
+        </h1>
+        <h4 class="shadowed hidden transition" id="header-title">
+          Full Stack Software Engineer
+        </h4>
       </div>
     </div>
     <nav id="nav-header">
       <div id="nav-container">
-        <a class="nav-link" href="#header">Home</a>
-        <a class="nav-link" href="#skills">Skills</a>
-        <a class="nav-link" href="#portfolio">Portfolio</a>
-        <a class="nav-link" href="#about">About</a>
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link hidden transition" href="#header">Home</a>
+        <a class="nav-link hidden transition" href="#skills">Skills</a>
+        <a class="nav-link hidden transition" href="#portfolio">Portfolio</a>
+        <a class="nav-link hidden transition" href="#about">About</a>
+        <a class="nav-link hidden transition" href="#contact">Contact</a>
       </div>
     </nav>
     <hr />
