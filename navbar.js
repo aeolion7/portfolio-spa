@@ -1,9 +1,13 @@
+let leftFirstPage = false;
+const pageHeight = window.innerHeight;
+
 window.onscroll = function() {
   assignActiveNavLink();
   fixHeader();
+  if (window.pageYOffset >= pageHeight) {
+    leftFirstPage = true;
+  }
 };
-
-const pageHeight = window.innerHeight;
 
 const navbar = document.getElementById('nav-header');
 
@@ -34,6 +38,10 @@ function assignActiveNavLink() {
   } else {
     resetActive();
     navLinks[0].classList.add('active');
+    if (window.pageYOffset <= pageHeight / 8 && leftFirstPage) {
+      $('#header-container').transition('bounce');
+      leftFirstPage = false;
+    }
   }
 }
 
