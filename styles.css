@@ -32,12 +32,16 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(160, 160, 160, 0.082);
+  background-color: rgba(199, 199, 199, 0.082);
 }
 
-.active, .active:hover {
-  background-color: grey;
+.active {
   border-bottom: 0.4vh solid crimson;
+}
+
+.active,
+.active:hover {
+  background-color: grey;
 }
 
 .column.flex {
