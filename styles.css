@@ -56,6 +56,12 @@ nav a {
   padding-top: 8vh;
 }
 
+.nav-link {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
 .page {
   display: grid;
   grid-template-columns: 10vw 80vw 10vw;
@@ -112,10 +118,8 @@ nav a {
 }
 
 #nav-container {
-  align-items: center;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   height: 100%;
 }
 
@@ -124,7 +128,7 @@ nav a {
 }
 
 #skills {
-  background-color: red;
+  background-color: lightgrey;
 }
 
 @media only screen and (min-width: 768px) {
