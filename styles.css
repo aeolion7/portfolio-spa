@@ -58,24 +58,16 @@ nav a {
   width: 100vw;
 }
 
-.page:nth-of-type(2) {
-  background-color: red;
+.shadowed {
+  text-shadow: 2px 2px 5px black;
 }
 
-.page:nth-of-type(3) {
-  background-color: blue;
-}
-
-.page:nth-of-type(4) {
+#about {
   background-color: orange;
 }
 
-.page:nth-of-type(5) {
+#contact {
   background-color: green;
-}
-
-.shadowed {
-  text-shadow: 2px 2px 5px black;
 }
 
 #header {
@@ -103,6 +95,14 @@ nav a {
   flex-flow: row nowrap;
   justify-content: space-around;
   height: 100%;
+}
+
+#portfolio {
+  background-color: blue;
+}
+
+#skills {
+  background-color: red;
 }
 
 @media only screen and (min-width: 768px) {
