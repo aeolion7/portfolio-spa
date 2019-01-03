@@ -31,7 +31,11 @@ nav a {
   color: white;
 }
 
-.active {
+nav a:hover {
+  background-color: rgba(160, 160, 160, 0.082);
+}
+
+.active, .active:hover {
   background-color: grey;
   border-bottom: 0.4vh solid crimson;
 }
