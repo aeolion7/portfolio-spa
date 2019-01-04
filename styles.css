@@ -37,6 +37,7 @@ nav a {
 
 nav a:hover {
   background-color: rgba(199, 199, 199, 0.082);
+  color: rgb(186, 130, 238);
 }
 
 .active {
@@ -46,6 +47,7 @@ nav a:hover {
 .active,
 .active:hover {
   background-color: grey;
+  color: white;
 }
 
 .column.flex {
@@ -183,7 +185,7 @@ nav a:hover {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 768px) {
+@media only screen and (min-width: 550px) and (max-width: 768px) {
   nav {
     font-size: 2em;
   }
