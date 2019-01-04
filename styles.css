@@ -92,12 +92,14 @@ nav a:hover {
 .page {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 8vh 8vh minmax(80vh, max-content) 4vh;
+  grid-template-rows: 8vh 12vh minmax(80vh, max-content);
 }
 
 .section-header {
   align-items: center;
   display: flex;
+  font-family: 'Playfair Display', serif;
+  font-size: 5vh;
   grid-column-start: 1;
   grid-row-start: 2;
   justify-content: center;
@@ -194,13 +196,7 @@ nav a:hover {
   }
 
   .height-adjust-tablet {
-    height: 20vh;
-  }
-
-  .tech-image {
-    max-height: 200px;
-    max-width: 150px;
-    width: auto;
+    height: 25vh;
   }
 
   #header {
@@ -213,7 +209,7 @@ nav a:hover {
   }
 }
 
-@media only screen and (min-width: 550px) and (max-width: 768px) {
+@media only screen and (min-width: 550px) and (max-width: 767px) {
   nav {
     font-size: 2em;
   }
