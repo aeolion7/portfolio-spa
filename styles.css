@@ -109,7 +109,7 @@ nav a:hover {
 
 #header {
   background-color: #313131;
-  background-image: url('https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-image: url('img/integration.jpeg');
   background-size: 100% 100%;
   grid-template-columns: 100vw;
   grid-template-rows: 92vh;
@@ -155,8 +155,8 @@ nav a:hover {
   }
 
   #header {
-    background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    background-size: cover;
+    background-image: url('img/grey-desktop.jpeg');
+    background-size: 100% 110%;
   }
 
   #header-title {
@@ -174,8 +174,8 @@ nav a:hover {
   }
 
   #header {
-    background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    background-size: cover;
+    background-image: url('img/white-desktop.jpeg');
+    background-size: 110% 100%;
   }
 
   #name {
