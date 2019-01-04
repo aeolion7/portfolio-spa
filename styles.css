@@ -29,6 +29,7 @@ nav {
   font-size: 5vw;
   height: 8vh;
   width: 100%;
+  z-index: 1;
 }
 
 nav a {
@@ -86,7 +87,7 @@ nav a:hover {
 .page {
   display: grid;
   grid-template-columns: 10vw 80vw 10vw;
-  grid-template-rows: 8vh 8vh 76vh 8vh;
+  grid-template-rows: 8vh 8vh minmax(76vh, max-content) 8vh;
 }
 
 .section-header {
