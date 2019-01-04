@@ -34,11 +34,12 @@ nav {
 
 nav a {
   color: white;
+  border-bottom: 0.4vh solid #313131;
 }
 
 nav a:hover {
   background-color: rgba(199, 199, 199, 0.082);
-  color: rgb(186, 130, 238);
+  color: rgb(111, 45, 173);
 }
 
 .active {
@@ -99,7 +100,7 @@ nav a:hover {
   align-items: center;
   display: flex;
   font-family: 'Playfair Display', serif;
-  font-size: 5vh;
+  font-size: 3.5vh;
   grid-column-start: 1;
   grid-row-start: 2;
   justify-content: center;
@@ -140,14 +141,14 @@ nav a:hover {
 #header-title {
   color: whitesmoke;
   font-family: 'Unica One', cursive;
-  font-size: 5vw;
+  font-size: 7vw;
   margin-top: 0;
 }
 
 #name {
   color: whitesmoke;
   font-family: 'Great Vibes', cursive;
-  font-size: 13.5vw;
+  font-size: 16vw;
   margin: 0;
 }
 
@@ -184,6 +185,10 @@ nav a:hover {
     font-size: 3em;
   }
 
+  .section-header {
+    font-size: 5vh;
+  }
+
   .tech-image {
     max-height: 200px;
     max-width: 200px;
@@ -213,13 +218,17 @@ nav a:hover {
     height: 25vh;
   }
 
+  .section-header {
+    font-size: 5vh;
+  }
+
   #header {
     background-image: url('img/white-desktop.jpeg');
     background-size: 110% 100%;
   }
 
   #header-title {
-    font-size: 6vw;
+    font-size: 7vw;
   }
 
   #name {
@@ -230,6 +239,10 @@ nav a:hover {
 @media only screen and (min-width: 550px) and (max-width: 767px) {
   nav {
     font-size: 2em;
+  }
+
+  .section-header {
+    font-size: 5vh;
   }
 
   #name {
