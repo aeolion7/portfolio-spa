@@ -52,7 +52,7 @@
     </div>
     <nav id="nav-header">
       <div id="nav-container">
-        <a class="nav-link hidden transition active" href="#header">Home</a>
+        <a class="nav-link hidden transition nav-active" href="#header">Home</a>
         <a class="nav-link hidden transition" href="#skills">Skills</a>
         <a class="nav-link hidden transition" href="#portfolio">Portfolio</a>
         <a class="nav-link hidden transition" href="#about">About</a>
@@ -196,7 +196,7 @@
       </div>
     </div>
     <div class="page" id="portfolio">
-      <div class="section-header">Portfolio</div>
+      <div class="section-header">What I've built recently.</div>
       <div class="container flex">
         <div class="ui stackable doubling four cards">
           <div
@@ -215,10 +215,10 @@
                 premier soccer league in Germany.
               </div>
             </div>
-            <div class="ui fullscreen modal" id="project-one-modal">
+            <div class="ui modal" id="project-one-modal">
               <i class="close icon"></i>
               <div class="centered header">BundesData</div>
-              <div class="content">
+              <div class="scrolling content">
                 <div class="image content">
                   <div class="ui huge image">
                     <img
@@ -229,7 +229,7 @@
                 <div class="ui divider"></div>
                 <div class="description modal-content">
                   <p>
-                    BundesData is an application that retrieves soccer data
+                    BundesData is a web application that retrieves soccer data
                     using the user-requested parameters and displays it in an
                     easily understandable and visual format. The user must
                     select which season's data they would like to view, and
@@ -240,20 +240,22 @@
                     place (or will take place), and the name (if known) of the
                     head referee who officiated the match.
                   </p>
-                  <p>In developing BundesData, stuff about development.</p>
                   <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi atque eaque dignissimos tenetur, sed vitae tempora
-                    tempore commodi esse ab ea distinctio voluptas iure maxime
-                    sapiente optio. Recusandae, architecto dolor.
+                    The underlying idea came about when I decided I wanted to
+                    build a functional application relating to a personal
+                    interest. In developing BundesData, I solidified a lot of
+                    the useful skills in application development such as
+                    consuming an API to present data. The user interface is
+                    built in React and state management is done through Redux.
                   </p>
+                  <p>Development of new features is ongoing!</p>
                 </div>
               </div>
               <div class="ui divider"></div>
               <div class="content">
                 <a
                   href="https://github.com/aeolion7/bundesliga"
-                  class="modal-content"
+                  class="modal-content modal-icon"
                   ><i class="github huge icon"></i
                 ></a>
               </div>

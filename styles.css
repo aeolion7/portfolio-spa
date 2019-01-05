@@ -42,12 +42,12 @@ nav a:hover {
   color: rgb(161, 107, 211);
 }
 
-.active {
+.nav-active {
   border-bottom: 0.4vh solid crimson;
 }
 
-.active,
-.active:hover {
+.nav-active,
+.nav-active:hover {
   background-color: grey;
   color: white;
 }
@@ -84,6 +84,10 @@ nav a:hover {
 
 .fixed + hr {
   padding-top: 8vh;
+}
+
+.icon-link:hover {
+  color: rgb(115, 50, 177);
 }
 
 .modal-content {
