@@ -199,7 +199,10 @@
       <div class="section-header">Portfolio</div>
       <div class="container flex">
         <div class="ui stackable doubling four cards">
-          <div class="ui raised link card">
+          <div
+            class="ui raised link red card"
+            onclick="$('#project-one-modal').modal('show');"
+          >
             <div class="image">
               <img
                 src="https://github.com/aeolion7/bundesliga/raw/master/firstselect.png"
@@ -212,29 +215,44 @@
                 it.
               </div>
             </div>
+            <div class="ui modal" id="project-one-modal">
+              <i class="close icon"></i>
+              <div class="centered header">Bundesliga</div>
+              <div class="scrolling content">
+                <div class="image content">
+                  <div class="ui massive image">
+                    <img
+                      src="https://github.com/aeolion7/bundesliga/raw/master/firstselect.png"
+                    />
+                  </div>
+                </div>
+                <div class="description modal-content">Lorem</div>
+              </div>
+              <div class="content">
+                <a
+                  href="https://github.com/aeolion7/bundesliga"
+                  class="modal-content"
+                  ><i class="github huge icon"></i
+                ></a>
+              </div>
+            </div>
           </div>
           <div class="ui raised link card">
-            <div class="image">
-              <img src="img/placeholder.png" />
-            </div>
+            <div class="image"><img src="img/placeholder.png" /></div>
             <div class="content"><div class="header">Project 2</div></div>
             <div class="content">
               <div class="description">Project 2 Summary</div>
             </div>
           </div>
           <div class="ui raised link card">
-            <div class="image">
-              <img src="img/placeholder.png" />
-            </div>
+            <div class="image"><img src="img/placeholder.png" /></div>
             <div class="content"><div class="header">Project 3</div></div>
             <div class="content">
               <div class="description">Project 3 Summary</div>
             </div>
           </div>
           <div class="ui raised link card">
-            <div class="image">
-              <img src="img/placeholder.png" />
-            </div>
+            <div class="image"><img src="img/placeholder.png" /></div>
             <div class="content"><div class="header">Project 4</div></div>
             <div class="content">
               <div class="description">Project 4 Summary</div>
