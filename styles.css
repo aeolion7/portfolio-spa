@@ -105,7 +105,7 @@ nav a:hover {
 .page {
   display: grid;
   grid-template-columns: 100vw;
-  grid-template-rows: 8vh 10vh minmax(80vh, max-content) 2vh;
+  grid-template-rows: 8vh 10vh minmax(82vh, max-content);
 }
 
 .section-header {
@@ -116,7 +116,6 @@ nav a:hover {
   grid-column-start: 1;
   grid-row-start: 2;
   justify-content: center;
-  text-shadow: 1px 1px grey;
 }
 
 .shadowed {
@@ -134,15 +133,39 @@ nav a:hover {
 }
 
 #about {
-  background-color: yellow;
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #contact {
-  background-color: green;
+  background-color: #313131;
+  color: white;
+}
+
+#contact > .container {
+  background: #313131; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #071690,
+    #313131
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #071690,
+    #313131
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #header {
-  background-color: #313131;
   background-image: url('img/integration.jpeg');
   background-size: 100% 100%;
   grid-template-columns: 100vw;
@@ -176,22 +199,17 @@ nav a:hover {
 }
 
 #portfolio {
-  background: #536976; /* fallback for old browsers */
+  background: #5f6b8d; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to bottom,
-    #292e49,
-    #536976
+    #d7dde8,
+    #5f6b8d
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to bottom,
-    #292e49,
-    #536976
+    #d7dde8,
+    #5f6b8d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-#portfolio > .section-header {
-  color: rgb(172, 172, 172);
-  text-shadow: 1px 1px whitesmoke;
 }
 
 #skills {
