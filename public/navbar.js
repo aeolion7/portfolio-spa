@@ -1,7 +1,7 @@
 let leftFirstPage = false;
 const pageHeight = window.innerHeight;
 
-window.onscroll = function () {
+window.onscroll = function() {
   assignActiveNavLink();
   fixHeader();
   if (window.pageYOffset >= pageHeight) {
@@ -50,3 +50,13 @@ function resetActive() {
     navLinks[i].classList.remove('nav-active');
   }
 }
+
+function setClickAnimations() {
+  for (let i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', evt => {
+      $(evt.target).transition('pulse');
+    });
+  }
+}
+
+setClickAnimations();
