@@ -1,7 +1,7 @@
 let leftFirstPage = false;
 const pageHeight = window.innerHeight;
 
-window.onscroll = function() {
+window.onscroll = function () {
   assignActiveNavLink();
   fixHeader();
   if (window.pageYOffset >= pageHeight) {
