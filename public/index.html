@@ -316,17 +316,20 @@
             </div>
           </div>
           <div
-            class="ui raised link card"
+            class="ui raised link blue card"
             onclick="$('#project-three-modal').modal('show');"
           >
             <div class="image"><img src="img/placeholder.png" /></div>
-            <div class="content"><div class="header">Project 3</div></div>
+            <div class="content"><div class="header">BabelLens</div></div>
             <div class="content">
-              <div class="description">Project 3 Summary</div>
+              <div class="description">
+                An application that allows you to take a picture of text with
+                your phone and translate it into the langauge of your choice.
+              </div>
             </div>
             <div class="ui modal" id="project-three-modal">
               <i class="close icon"></i>
-              <div class="centered header">Project 3</div>
+              <div class="centered header">BabelLens</div>
               <div class="content">
                 <div class="image content">
                   <div class="ui huge image">
@@ -335,14 +338,43 @@
                 </div>
                 <div class="ui divider"></div>
                 <div class="description modal-content">
-                  <p>Project 3 stuff.</p>
-                  <p>More Project 3 stuff.</p>
+                  <p>
+                    BabelLens is a mobile application centered around language.
+                    The main functionality of the application is in the ability
+                    to take a picture of text with your phone's camera and have
+                    it translated into the language of your choice. Built in
+                    React Native using the Expo toolkit, the idea for BabelLens
+                    came out of a personal interest in language. Having studied
+                    several languages over the years, I often notice a word in
+                    an advertisement for which I could not remember the
+                    translation in another language, and I tasked myself with
+                    building an application able to deal with this problem.
+                  </p>
+                  <p>
+                    In addition to the picture-to-translation functionality, I
+                    also included a text translator that allows the user to
+                    input whatever text they like instead of having to walk
+                    around and try to find an image that contains the word they
+                    would like to translate. The 10 most recent translation
+                    requests are stored on application state, and there are
+                    options that allow the user to select the languages they
+                    would like, in addition to being able to request the scanned
+                    text before translation so that they can verify its
+                    accuracy.
+                  </p>
+                  <p>
+                    Working as a solo developer over the course of 5
+                    days, building BabelLens afforded me the opportunity to
+                    familiarize myself with React Native and strengthen my
+                    understanding of utilizing external APIs to perform
+                    functions and collect data.
+                  </p>
                 </div>
               </div>
               <div class="ui divider"></div>
               <div class="content">
                 <a
-                  href="https://github.com/aeolion7/"
+                  href="https://github.com/aeolion7/babellens"
                   class="modal-content icon-link"
                   target="_blank"
                   ><i class="github huge icon"></i
