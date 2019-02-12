@@ -385,7 +385,7 @@
             </div>
           </div>
           <div
-            class="ui raised link card"
+            class="ui raised purple link card"
             onclick="$('#project-four-modal').modal('show');"
           >
             <div class="image"><img src="img/chromevision.png" /></div>
@@ -409,12 +409,29 @@
                 <div class="ui divider"></div>
                 <div class="description modal-content">
                   <p>
-                    ChromeVision is software that combines computer vision,
-                    sentiment analysis, and data visualization to allow users to
-                    gauge their personal well-being based on their web browsing
-                    habits.
+                    ChromeVision is a Google Chrome extension and accompanying
+                    single page web application that provides data visualization
+                    based on emotional sentiment analysis in correlation to web
+                    browsing activity. The Chrome extension requests access to
+                    the user's webcam, and then sends their image data to the
+                    Microsoft Face API for analysis. The response contains data
+                    correlating to the user's facial expressions, which is
+                    subsequently visualized in easily-readable charts and graphs
+                    to display their emotional trends while browsing the web.
                   </p>
-                  <p>More Project 4 stuff.</p>
+                  <p>
+                    In developing ChromeVision, there were some interesting
+                    challenges. Since a Chrome extension lives within the
+                    browser, we chose to develop it using HTML, CSS, and
+                    JavaScript in order to keep it lightweight. This posed
+                    additional challenges in that the Microsoft Face API accepts
+                    one of only two options: an image URL or binary data for
+                    processing. We as a team did not want to store user
+                    snapshots in any persistent manner, and, as such, we could
+                    not use an image URL. We were able to solve this problem by
+                    converting the webcam snapshots directly into binary data
+                    using a byte array.
+                  </p>
                 </div>
               </div>
               <div class="ui divider"></div>
