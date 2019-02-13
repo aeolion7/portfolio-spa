@@ -122,6 +122,11 @@ nav a:hover {
   text-shadow: 5px 5px 20px black;
 }
 
+.spaced {
+  display: flex;
+  justify-content: space-around;
+}
+
 .tech-image {
   max-height: 150px;
   max-width: 100px;
@@ -144,6 +149,7 @@ nav a:hover {
     #8f94fb,
     #4e54c8
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 1.6em;
 }
 
 #contact {
