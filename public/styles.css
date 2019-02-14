@@ -122,11 +122,6 @@ nav a:hover {
   text-shadow: 5px 5px 20px black;
 }
 
-.spaced {
-  display: flex;
-  justify-content: space-around;
-}
-
 .tech-image {
   max-height: 150px;
   max-width: 100px;
