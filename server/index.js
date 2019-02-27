@@ -1,4 +1,3 @@
-
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -11,7 +10,7 @@ app.use(express.static(path.join(__dirname, '..', 'public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('*', function (req, res) {
+app.use('*', function (req, res) {
   res.sendFile(path.join(__dirname, '..', 'public', 'index.html'));
 });
 
@@ -22,7 +21,7 @@ app.use(function (err, req, res, next) {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
-  console.log(`Your server is listening on port ${PORT}`);
+  console.log(`Application is listening on port ${PORT}`);
 });
 
 module.exports = app;
