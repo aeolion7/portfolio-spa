@@ -144,7 +144,8 @@ nav a:hover {
     #8f94fb,
     #4e54c8
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-size: 1.6em;
+  font-size: 1.5em;
+  padding-bottom: 3vh;
 }
 
 #contact {
@@ -211,6 +212,12 @@ nav a:hover {
     #d7dde8,
     #5f6b8d
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#self-photo {
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  margin-bottom: -1vh;
 }
 
 #skills {
