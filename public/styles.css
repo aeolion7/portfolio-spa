@@ -215,9 +215,8 @@ nav a:hover {
 }
 
 #self-photo {
-  border: 2px solid whitesmoke;
+  border: 3px outset lightgrey;
   border-radius: 10px;
-  margin-bottom: -1vh;
 }
 
 #skills {
