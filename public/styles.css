@@ -102,6 +102,10 @@ nav a:hover {
   justify-content: center;
 }
 
+.padded {
+  padding: 2vh 2vw;
+}
+
 .page {
   display: grid;
   grid-template-columns: 100vw;
@@ -133,29 +137,20 @@ nav a:hover {
 }
 
 #about {
-  background: #666cda; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #9ea2f3,
-    #666cda
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #9ea2f3,
-    #666cda
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url('https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: contain;
   font-size: 1.5em;
   padding-bottom: 3vh;
 }
 
 #about > .section-header {
-  text-shadow: 1px 1px grey;
+  text-shadow: 1px 1px 1px grey;
 }
 
 #contact {
   background-color: #313131;
   color: white;
-  font-size: 1.6em;
+  font-size: 1.3em;
 }
 
 #contact > .container {
@@ -170,6 +165,11 @@ nav a:hover {
     #071690,
     #313131
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#contact-icons {
+  display: flex;
+  justify-content: space-around;
 }
 
 #header {
