@@ -172,6 +172,15 @@ nav a:hover {
   justify-content: space-around;
 }
 
+#contact-name {
+  font-size: 1.8em;
+}
+
+#contact-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.2em;
+}
+
 #header {
   background-image: url('img/integration.jpeg');
   background-size: 100% 100%;
